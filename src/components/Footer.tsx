@@ -1,4 +1,5 @@
 import { Github } from 'lucide-react'
+import ThemeToggle from './ThemeToggle'
 
 export default function Footer() {
   return (
@@ -16,6 +17,7 @@ export default function Footer() {
         </a>{' '}
         | All rights reserved.
       </p>
+      <ThemeToggle />
     </footer>
   )
 }

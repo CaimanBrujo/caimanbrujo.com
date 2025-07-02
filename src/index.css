@@ -11,16 +11,20 @@
   --color-gray-600: #7e7e7e;
   --color-gray-700: #5e5e5e;
   --color-gray-800: #3d3d3d;
-  --color-gray-900: #2a2a2a;
+  --color-gray-900: #000000;
 
   --color-accent: #f58634;
   --color-accent-soft: #f9a65a;
   --color-accent-muted: #cc5c1f;
 
+  --color-orange-1: #ffb347;
+  --color-orange-2: #ff7f11;
+  --color-orange-3: #cc5801;
+
   --color-background: var(--color-gray-900);
   --color-text: var(--color-gray-100);
   --color-muted: var(--color-gray-400);
-  --color-border: var(--color-gray-500);
+  --color-border: var(--color-gray-800);
 }
 
 @layer theme {
