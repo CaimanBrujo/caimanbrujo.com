@@ -88,7 +88,7 @@ export default function CanvasParticles() {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute inset-0 w-full h-full pointer-events-none opacity-30"
+      className="absolute z-0 inset-0 w-full h-full pointer-events-none opacity-30"
     />
   )
 }

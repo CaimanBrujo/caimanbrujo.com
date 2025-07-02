@@ -14,7 +14,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <div className="relative z-20 mt-4 sm:-mt-32 w-full flex justify-center">
+    <div className="relative mt-4 sm:-mt-32 w-full flex justify-center">
       <section className=" text-text px-6 py-12 flex flex-col lg:flex-row items-center justify-center gap-12 rounded-xl max-w-6xl w-full mx-4">
         <div
           className={`max-w-sm w-full rounded-xl overflow-hidden transition-opacity duration-2000 ease-out ${

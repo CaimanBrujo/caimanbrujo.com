@@ -3,7 +3,7 @@ import ThemeToggle from './ThemeToggle'
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-background text-muted py-6 px-6 border-t border-border mt-auto">
+    <footer className="relative w-full bg-background text-muted py-6 px-6 border-t border-border mt-auto z-50">
       <p className="text-sm text-center flex items-center justify-center gap-2">
         © {new Date().getFullYear()} Template |
         <a
