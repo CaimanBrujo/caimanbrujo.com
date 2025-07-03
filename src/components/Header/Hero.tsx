@@ -44,15 +44,19 @@ export default function Hero() {
 
           <div className="flex gap-6 text-text self-end">
             <a
-              href="#"
+              href="https://github.com/CaimanBrujo"
               aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-accent hover:scale-110 transition-transform duration-300"
             >
               <Github size={28} strokeWidth={1.8} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/nicobugedo/"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-accent hover:scale-110 transition-transform duration-300"
             >
               <Linkedin size={28} strokeWidth={1.8} />

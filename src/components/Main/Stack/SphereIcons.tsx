@@ -155,7 +155,7 @@ export default function SphereIcons() {
         ref={canvasRef}
         width={canvasSize}
         height={canvasSize}
-        className="block w-full h-auto bg-transparent"
+        className="block w-full bg-transparent"
       />
     </div>
   )
