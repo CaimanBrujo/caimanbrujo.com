@@ -47,8 +47,13 @@ export default function CanvasParticles() {
 
     function resizeCanvas() {
       if (!canvas || !context) return
-      width = canvas.offsetWidth
-      height = canvas.offsetHeight
+
+      const rect = canvas.getBoundingClientRect()
+      width = rect.width
+      height = rect.height
+
+      console.log('resizeCanvas', { width, height, dpr })
+
       canvas.width = width * dpr
       canvas.height = height * dpr
       context.setTransform(1, 0, 0, 1, 0, 0)
@@ -88,7 +93,7 @@ export default function CanvasParticles() {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute z-0 inset-0 w-full h-full pointer-events-none opacity-30"
+      className="absolute z-0 inset-0 w-screen h-screen pointer-events-none opacity-30"
     />
   )
 }
