@@ -14,8 +14,8 @@ export default function Hero() {
   }, [])
 
   return (
-    <div className="relative mt-4 sm:-mt-32 w-full flex justify-center">
-      <section className="text-text px-6 py-8 sm:py-12 flex flex-col lg:flex-row items-center justify-center gap-2 sm:gap-12 rounded-xl max-w-6xl w-full mx-4">
+    <div className="relative mt-0 sm:mt-40 w-full flex justify-center">
+      <section className="text-text px-6 py-8 sm:py-12 flex flex-col lg:flex-row items-center justify-center gap-4 sm:gap-12 rounded-xl max-w-6xl w-full mx-4">
         <div
           className={`max-w-sm w-full rounded-xl overflow-hidden transition-opacity duration-2000 ease-out ${
             isVisible ? 'opacity-100' : 'opacity-0'
@@ -37,7 +37,7 @@ export default function Hero() {
               responsive layouts, and interactive experiences.
             </span>
             <span className="block">
-              Currently deepening my skills in React and TypeScript, while
+              Currently sharpening my skills in React and TypeScript, while
               finishing the Full-Stack path.
             </span>
           </p>

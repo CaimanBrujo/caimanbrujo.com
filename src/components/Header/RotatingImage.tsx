@@ -13,7 +13,7 @@ export default function RotatingImage() {
   }, [])
 
   return (
-    <div className="mt-0 relative w-full aspect-square overflow-visible [perspective:1200px] p-[2px]">
+    <div className="relative w-full aspect-square overflow-visible [perspective:1200px] p-[2px]">
       <div
         className={`relative w-full h-full transition-transform duration-2000 ease-in-out [transform-style:preserve-3d] overflow-visible will-change-transform ${
           flipped ? '[transform:rotateY(180deg)]' : ''
