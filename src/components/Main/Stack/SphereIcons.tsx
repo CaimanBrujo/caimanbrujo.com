@@ -150,7 +150,7 @@ export default function SphereIcons() {
   }, [iconsLoaded, canvasSize, iconSize, radius])
 
   return (
-    <div ref={containerRef} className="w-full max-w-[500px] mx-auto">
+    <div ref={containerRef} className="w-full max-w-[500px]">
       <canvas
         ref={canvasRef}
         width={canvasSize}
