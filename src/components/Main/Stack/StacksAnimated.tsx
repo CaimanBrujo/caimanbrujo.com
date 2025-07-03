@@ -42,8 +42,9 @@ export default function StacksAnimated() {
 
   return (
     <div className="relative w-full max-w-4xl mx-auto px-4 flex flex-col items-center text-center gap-6">
-      <div className="absolute left-0 top-[60%] h-[40px] w-24 bg-gradient-to-r from-black via-black/60 to-transparent pointer-events-none z-10" />
-      <div className="absolute right-0 top-[60%] h-[40px] w-24 bg-gradient-to-l from-black via-black/60 to-transparent pointer-events-none z-10" />
+      <div className="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-background via-background/60 to-transparent pointer-events-none z-10" />
+
+      <div className="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-background via-background/60 to-transparent pointer-events-none z-10" />
 
       <div ref={containerRef} className="overflow-hidden w-full h-8">
         <div
