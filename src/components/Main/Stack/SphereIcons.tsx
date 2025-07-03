@@ -18,7 +18,7 @@ const iconNames = [
   'webpack'
 ]
 
-const ICON_PATH = '/src/assets/svg-icons/'
+const ICON_PATH = '/svg-icons/'
 const BASE_CANVAS_SIZE = 250
 const BASE_RADIUS = 150
 const BASE_ICON_SIZE = 60
