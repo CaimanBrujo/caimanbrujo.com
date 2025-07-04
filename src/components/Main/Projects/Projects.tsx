@@ -4,12 +4,13 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-20"
+      className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-2 py-10"
     >
       <div className="flex flex-col items-center text-center relative">
-        <h2 className="text-5xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-orange-1)] via-[var(--color-orange-2)] to-[var(--color-orange-3)] drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)]">
+        <h2 className="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-orange-1)] via-[var(--color-orange-2)] to-[var(--color-orange-3)] leading-tight">
           Projects
         </h2>
+
         <p className="mt-4 text-lg sm:text-xl text-muted max-w-2xl">
           Some cool things I have built.
         </p>
