@@ -3,15 +3,15 @@ import Waver from '../assets/wavesOpacity.svg'
 
 export default function Footer() {
   return (
-    <footer
-      id="contact"
-      className="relative w-full text-white mt-auto z-50 bg-gradient-to-b from-accent to-black border-t border-black"
-    >
+    <footer className="relative w-full text-white mt-auto z-50 bg-gradient-to-b from-accent to-black border-t border-black">
       <div className="w-full">
         <img src={Waver} alt="Wave Separator" className="w-full h-auto" />
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center gap-8 p-16 max-w-6xl mx-auto">
+      <div
+        id="contact"
+        className="flex flex-col md:flex-row justify-between items-center gap-8 p-16 max-w-6xl mx-auto"
+      >
         <div className="text-center md:text-left">
           <h2 className="text-5xl font-extrabold tracking-wide mb-8 drop-shadow-md">
             Contact Me
