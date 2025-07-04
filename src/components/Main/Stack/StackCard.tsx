@@ -1,5 +1,5 @@
 import {
-  Bubbles,
+  CodeXml,
   MonitorSmartphone,
   AlignVerticalJustifyCenter
 } from 'lucide-react'
@@ -26,12 +26,12 @@ export default function StackCard() {
 
       <div className="mt-6 grid grid-cols-3 gap-4 w-full max-w-sm sm:max-w-xl">
         <div className="flex flex-col items-center justify-center p-4 rounded-xl border border-border bg-[rgba(255,255,255,0.02)] backdrop-blur-sm">
-          <Bubbles
+          <CodeXml
             className="w-10 h-10 stroke-[url(#gradient)]"
             style={{ stroke: 'url(#gradient)' }}
           />
           <p className="mt-2 text-sm font-medium text-text text-center">
-            Clean Design
+            Clean Code
           </p>
         </div>
 

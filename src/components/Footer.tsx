@@ -3,7 +3,10 @@ import Waver from '../assets/wavesOpacity.svg'
 
 export default function Footer() {
   return (
-    <footer className="relative w-full text-white mt-auto z-50 bg-gradient-to-b from-accent to-black border-t border-black">
+    <footer
+      id="contact"
+      className="relative w-full text-white mt-auto z-50 bg-gradient-to-b from-accent to-black border-t border-black"
+    >
       <div className="w-full">
         <img src={Waver} alt="Wave Separator" className="w-full h-auto" />
       </div>
