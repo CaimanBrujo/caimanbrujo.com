@@ -22,7 +22,6 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Sentinel para trigger */}
       <div ref={sentinelRef} className="absolute top-0 h-[1px] w-full"></div>
 
       <nav
